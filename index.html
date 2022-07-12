@@ -49,14 +49,34 @@
   </header> -->
 
   <header>
-    <!-- <div class="petaheader p-3 bg-dark text-white">
+    <div class="petaheader p-3 bg-dark text-white">
       <div class="container">
-        <div class="col-lg-6"></div>
-        <div class="col-lg-6"></div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-flex">
+              <div class="pe-4">
+                <i class="bi bi-phone"></i>
+                <span class="ps-2"> CALL US: +381 65 666 6666</span>
+              </div>
+              <div>
+                <i class="bi bi-geo-fill"></i>
+                <span class="ps-2"> Madison Ave </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex justify-content-end">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-wordpress px-3"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-twitter px-3"></i>
+            </div>
+          </div>
+        </div>
       </div>
-    </div> -->
+    </div>
     <!-- MAIN HEADER -->
-    <div class="nav text-secondary">
+    <div class="nav py-3">
       <div class="container">
         <nav>
           <div class="row justify-content-center align-items-center">
@@ -65,13 +85,36 @@
             </div>
             <div class="col-xl-5">
               <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mb-md-0 ">
-                <li><a href="#" class="nav-link px-2y">Home</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Home</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Home1</a></li>
+                    <li><a class="dropdown-item" href="#">Home2</a></li>
+                    <li><a class="dropdown-item" href="#">Home3</a></li>
+                    <li><a class="dropdown-item" href="#">Home4</a></li>
+                  </ul>
+                </li>
                 <li><a href="#" class="nav-link px-2 text-dark">Menu</a></li>
                 <li><a href="#" class="nav-link px-2 text-dark">About</a></li>
                 <li><a href="#" class="nav-link px-2 text-dark">Shope</a></li>
-                <li><a href="#" class="nav-link px-2 text-dark">Bloge</a></li>
-                <li><a href="#" class="nav-link px-2 text-dark">Page</a></li>
-                <li><a href="#" class="nav-link px-2 text-dark">Contact</a></li>  
+                <li><a href="#" class="nav-link px-2 text-dark dropdown-toggle" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown">Blog</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog List</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                    <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="nav-link px-2 text-dark dropdown-toggle" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown">Page</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Faq</a></li>
+                    <li><a class="dropdown-item" href="#">Icons</a></li>
+                    <li><a class="dropdown-item" href="#">Our Team</a></li>
+                    <li><a class="dropdown-item" href="#">Our Histroy</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="nav-link px-2 text-dark">Contact</a></li>
               </ul>
             </div>
             <div class="col-xl-2"></div>
@@ -80,7 +123,20 @@
         </nav>
       </div>
     </div>
+
+    <div class="dropdown">
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
   </header>
+
+  <i class="bi bi-search"></i>
+  <i class="bi bi-person-fill"></i>
+  <i class="bi bi-heart-fill"></i>
+  <i class="bi bi-bag-plus-fill"></i>
 
   <main></main>
 
