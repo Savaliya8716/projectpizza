@@ -1,16 +1,18 @@
 :root{
-    --bs-warning-color: #FFC222;
-    --bs-warning-rgb: 255, 194, 34;
-    --bs-success-color: #00A149;
-    --bs-success-rgb: 0, 161, 73;
-    --bs-dark-color: #1E1D23;
-    --bs-dark-rgb: 30, 29, 35;
-    --bs-light-color:#999999;
-    --bs-light-rgb: 153, 153, 153;
-    --bs-secondary-color:#808080;
-    --bs-secondary-rgb: 128, 128, 128;
-    --bs-warning-primary-hover: #eeac00;
-    --bs-light-border:#e5e5e5;
-    --bs-warning-background-color:#f7f2e2;
-    
+    --primary-color-:#00a850;
+    --seconder-color-:#ffc222;
+}
+
+i{
+    cursor: pointer;
+}
+
+*{
+    outline: none;
+}
+.petafooter{
+    background: var(--primary-color-);
+}
+.footerspan{
+    color: var(--seconder-color-);
 }
