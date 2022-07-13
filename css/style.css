@@ -1,18 +1,27 @@
-:root{
-    --primary-color-:#00a850;
-    --seconder-color-:#ffc222;
+:root {
+    --primary-color-: #00a850;
+    --seconder-color-: #ffc222;
 }
 
-i{
+i {
     cursor: pointer;
 }
 
-*{
+* {
     outline: none;
 }
-.petafooter{
+
+.petafooter {
     background: var(--primary-color-);
 }
-.footerspan{
+
+.footerspan {
     color: var(--seconder-color-);
+}
+
+@media (min-width:1140px) {
+
+    .col-lg-15 {
+        width: 12.5% !important;
+    }
 }
